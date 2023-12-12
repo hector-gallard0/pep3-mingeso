@@ -1,0 +1,381 @@
+{
+  "id": "94349363-243b-4bef-bfc4-bc2c2ed9b39d",
+  "version": "2.0",
+  "name": "inscripcion-asignaturas-mingeso",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "380f2fb9-15e3-47af-bc59-c76172f24f54",
+    "name": "TC-01 Visualización de calendario con horarios de asignatura",
+    "commands": [{
+      "id": "9036cda4-7e7e-49c6-85d3-a284e33e88ce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0297846-06ac-4ed6-9dac-3b5683305b0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1913x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa71c879-1c00-408b-95a4-632b73f8a911",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .px-3",
+      "targets": [
+        ["css=li:nth-child(2) .px-3", "css:finder"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ingresar horarios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89ebbca2-7d9d-44e6-bc5a-3fdd3d25e321",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=:r0:-form-item",
+      "targets": [
+        ["id=:r0:-form-item", "id"],
+        ["css=#\\3Ar0\\3A-form-item", "css:finder"],
+        ["xpath=//button[@id=':r0:-form-item']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Seleccionar carrera')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "752881b1-d3ef-496b-956c-e263424b4a61",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=:r0:-form-item",
+      "targets": [
+        ["id=:r0:-form-item", "id"],
+        ["css=#\\3Ar0\\3A-form-item", "css:finder"],
+        ["xpath=//button[@id=':r0:-form-item']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Seleccionar carrera')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "907dc474-620a-4d2e-805a-3dd0700e20bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6abb4ce4-bf77-4245-9a20-3d9d7dee8b6f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.space-y-2:nth-child(1) > select",
+      "targets": [],
+      "value": "label=INGENIERÍA QUÍMICA"
+    }, {
+      "id": "f558d66a-18bc-4735-8a7c-a1d1985e64f9",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.min-h-screen",
+      "targets": [
+        ["css=.min-h-screen", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c3ecb86b-885c-4562-aaac-61c58bea751b",
+    "name": "TC-02 Ingresar horarios asignatura",
+    "commands": [{
+      "id": "7cb02d7c-c817-462d-9c4b-646762ceb465",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9619bbd-091b-48a3-bfce-f0d5ab5f5b58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1913x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3996e71b-95f3-418e-97ed-e066b14f08e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) .px-3",
+      "targets": [
+        ["css=li:nth-child(2) .px-3", "css:finder"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ingresar horarios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7964a3a8-6a7d-4665-9500-6ec6288de73c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=:r0:-form-item",
+      "targets": [
+        ["id=:r0:-form-item", "id"],
+        ["css=#\\3Ar0\\3A-form-item", "css:finder"],
+        ["xpath=//button[@id=':r0:-form-item']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Seleccionar carrera')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eba21bdb-57c2-4c3e-b759-6e48b8490b42",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=:r0:-form-item",
+      "targets": [
+        ["id=:r0:-form-item", "id"],
+        ["css=#\\3Ar0\\3A-form-item", "css:finder"],
+        ["xpath=//button[@id=':r0:-form-item']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Seleccionar carrera')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc61f982-5678-4ccf-a4c1-d3370791026d",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d77e77f1-8d79-4136-8687-e795a484c4e6",
+      "comment": "",
+      "command": "select",
+      "target": "css=.space-y-2:nth-child(1) > select",
+      "targets": [],
+      "value": "label=INGENIERÍA QUÍMICA"
+    }, {
+      "id": "61b7e951-136e-45f6-8626-1a20d19b97e0",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.min-h-screen",
+      "targets": [
+        ["css=.min-h-screen", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33780f1c-0efc-44d1-9f40-32cb82b2ccc9",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Horarios ingresados correctamente.",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "460cb724-d15d-4b36-aa4e-fc1ff455d1d2",
+    "name": "TC-03 Visualización malla curricular",
+    "commands": [{
+      "id": "a4ce59b9-cfcd-4675-be26-d5cca96cff17",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3ae1087-0b39-49c2-aa17-b73eb3598642",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1913x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41f2ba6d-ab8b-4e61-8d83-b6e580411249",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) .px-3",
+      "targets": [
+        ["css=li:nth-child(3) .px-3", "css:finder"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inscribir asignaturas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "474159f9-421e-4331-85d1-2a32e2f1772d",
+      "comment": "",
+      "command": "click",
+      "target": "id=:r0:-form-item",
+      "targets": [
+        ["id=:r0:-form-item", "id"],
+        ["name=rut", "name"],
+        ["css=#\\3Ar0\\3A-form-item", "css:finder"],
+        ["xpath=//input[@id=':r0:-form-item']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "717a9b05-4fb0-4b79-9225-07a9d8ea1cb5",
+      "comment": "",
+      "command": "type",
+      "target": "id=:r0:-form-item",
+      "targets": [
+        ["id=:r0:-form-item", "id"],
+        ["name=rut", "name"],
+        ["css=#\\3Ar0\\3A-form-item", "css:finder"],
+        ["xpath=//input[@id=':r0:-form-item']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "E-14321"
+    }, {
+      "id": "30b12f0f-f435-4ecd-a754-646e6a3b4185",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-flex",
+      "targets": [
+        ["css=.inline-flex", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver Asignaturas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03f2477b-e91d-484c-ad75-576b4cc0ff42",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.inline-flex",
+      "targets": [
+        ["css=.inline-flex", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver Asignaturas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98840690-2b42-4d00-a135-09757e22f83f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.inline-flex:nth-child(2)",
+      "targets": [
+        ["css=.inline-flex:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver Asignaturas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6293d0b5-f5b7-4a8f-a44d-a98097592fb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-28:nth-child(1) > .bg-red-200",
+      "targets": [
+        ["css=.w-28:nth-child(1) > .bg-red-200", "css:finder"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3311af04-6487-409b-95d3-4c1db4aa57b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-flex:nth-child(3)",
+      "targets": [
+        ["css=.inline-flex:nth-child(3)", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Inscribir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "addc8384-7fe6-4efb-ac19-68a7eead022b",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Asignatura Química General inscrita correctamente",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58ca3be2-b285-4059-96b8-209da11b823f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-28:nth-child(2) > .bg-red-200",
+      "targets": [
+        ["css=.w-28:nth-child(2) > .bg-red-200", "css:finder"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "248c4e72-6192-438b-90c0-c2a8f30e13ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-flex:nth-child(3)",
+      "targets": [
+        ["css=.inline-flex:nth-child(3)", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Inscribir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f5d4a54-ebc6-4e31-946f-2c6016b45bff",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Asignatura Fisicoquímica inscrita correctamente",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc7e9989-4823-4dcb-9a98-752ee488084d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-28:nth-child(3) > .bg-red-200:nth-child(4)",
+      "targets": [
+        ["css=.w-28:nth-child(3) > .bg-red-200:nth-child(4)", "css:finder"],
+        ["xpath=//div[3]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f9e7f42-1ebe-4f78-a34c-863e4db6ba2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-flex:nth-child(3)",
+      "targets": [
+        ["css=.inline-flex:nth-child(3)", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Inscribir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b4a507-0f0e-4ab6-b863-78d5c49beba6",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Asignatura Estadística y Probabilidad inscrita correctamente",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3484b832-0ec0-423d-a968-b3567c86498a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-flex:nth-child(1)",
+      "targets": [
+        ["css=.inline-flex:nth-child(1)", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Finalizar proceso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaab75e6-bd7a-4d19-9cfe-ff05486a48e5",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Asignaturas inscritas, proceso finalizado correctamente",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "be1c1a9c-e873-4285-b9ae-3eaf21a1440b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["380f2fb9-15e3-47af-bc59-c76172f24f54"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
